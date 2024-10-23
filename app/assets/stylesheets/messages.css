@@ -21,15 +21,37 @@
   height: 100px;
   /* width: auto; */
   padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.login-user-name a{
+  color: #fafafa;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.new-chat-link a{
+  font-size: 10px;
+  border: 1px solid lightblue;
+  padding: 14px;
+  color: deepskyblue;
+  text-decoration: none;
 }
 
 .side-bar-rooms {
   background-color: #2f3e51;
   height: calc(100vh - 100px);
   padding: 0 20px;
+  overflow: scroll;
 }
 
+.room-content {
+  color: white;
 
+  padding: 20px 20px 40px 20px;
+}
 
 
 /* ---------------------------------- */
