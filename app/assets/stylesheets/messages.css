@@ -49,10 +49,13 @@
 
 .room-content {
   color: white;
-
   padding: 20px 20px 40px 20px;
 }
 
+.room-content a {
+  color: white;
+  text-decoration: none;
+}
 
 /* ---------------------------------- */
 /* main-chat装飾 */
